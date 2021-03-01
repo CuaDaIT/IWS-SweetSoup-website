@@ -1,0 +1,122 @@
+.body{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding: 2% 5%;
+    margin-bottom: 50px;
+}
+
+.bestSeller{
+    width: 25%;
+    margin-right: 5%;
+    display: flex;
+    flex-flow: column;
+}
+
+.product{
+    width: 70%;
+}
+
+.order{
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 40px;
+}
+
+.info li{
+    display: inline-block;
+    border: 1px solid gray;
+    border-bottom: white;    
+    height: 30px;
+    width: fit-content;
+    margin-left: 0;
+    margin-bottom: -1px;
+    padding: 2px;
+}
+
+.info ul{
+    border-bottom: 1px solid green;
+}
+
+.active{
+    display: block;
+}
+
+.inactive{
+    display: none;
+}
+
+.des{
+    margin-bottom: 100px;
+}
+
+.des img{
+    width: 100%;
+}
+
+.rating{
+    height: fit-content;
+    margin-bottom: 100px;
+}
+
+.big{
+    height: 400px;
+    width: 650px;
+    background-position: center;
+    background-size: cover;
+}
+
+.small{
+    margin-top: 5px;
+    height: 50px;
+}
+
+#a{
+  height: 70px;
+  width: 70px;  
+  display: inline-block;
+  background-position: center;
+  background-size: cover;
+}
+
+#b{
+    height: 70px;
+    width: 70px;
+    display: inline-block; 
+    margin-left: 5px;
+    background-position: center;
+    background-size: cover;
+  }
+
+.order-info{
+    margin-left: 20px;
+}
+
+.order-info h2,h3{
+    text-align: start;
+}
+
+#quantity{
+    width: 100px;
+    margin-right: 5px;
+}
+
+#btn{
+    text-decoration: none;
+    color: black;
+    padding: 0 2px;
+}
+
+#toCart{
+    background-color: cornsilk;
+    padding: 10px;
+}
+
+#toCart button{
+    float: right;
+}
+
+#toCart a{
+    color: black;
+    padding: 2px;
+}

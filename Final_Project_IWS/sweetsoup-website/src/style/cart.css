@@ -1,0 +1,39 @@
+.body-cart{
+    padding: 12px 5%;
+}
+
+.w30{
+    width: 30%;
+}
+
+.w70{
+    width: 70%;
+}
+
+.h50{
+    height: 50px;
+}
+
+.payment{
+    width: 30%;
+}
+
+#infop div{
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 2px;
+}
+
+.d{
+    background-color: rgb(43, 39, 39);
+    color: white;
+}
+
+.inactive{
+    display: none;
+}
+
+.active{
+    display: block;
+}

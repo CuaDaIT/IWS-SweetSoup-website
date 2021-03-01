@@ -1,0 +1,18 @@
+.comment{
+    border: 1px solid #eaeaea;
+    padding: 0 12px;
+    margin-top: 5px;
+}
+
+.comment h3{
+    font-size: 1.5em;
+    border-bottom: 1px solid tan;
+}
+
+.comment-hol{
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
